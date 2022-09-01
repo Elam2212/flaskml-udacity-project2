@@ -41,7 +41,7 @@ make all
 * Output of a test run
 Output of the test run can be seen in the above mentioned image. We can now introduce github actions feature for automatizing the continuous integration tool chain. For that one need to create .yml file in github action and output of the github action can be found below for every commit.
 
-![GitHub action integrated in github](gitbubActionOverviewOutput.png)
+![GitHub action integrated in github](gitgubActionOverviewOutput.png)
 ![GitHub action integrated in github](GithubactionOutputDetail.png)
 
 ### Azure Devops Pipeline
