@@ -41,8 +41,8 @@ make all
 * Output of a test run
 Output of the test run can be seen in the above mentioned image. We can now introduce github actions feature for automatizing the continuous integration tool chain. For that one need to create .yml file in github action and output of the github action can be found below for every commit.
 
-[GitHub action integrated in github, overview](githubActionOverviewOutput.png)
-![GitHub action integrated in github, executed for every git action](GithubactionOutputDetail.png)
+![GitHub action integrated in github](githubActionOverviewOutput.png)
+![GitHub action integrated in github](GithubactionOutputDetail.png)
 
 ### Azure Devops Pipeline
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
