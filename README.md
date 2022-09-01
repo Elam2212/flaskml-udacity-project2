@@ -4,7 +4,7 @@ This Project 'Building a CI/CD Pipeline' Project as a part of DevOps Engineer us
 ## Project Plan
 
 * A [Trello](https://trello.com/b/UO8mjd9V) board for the project has been created and tracked
-* A ![spreadsheet](project-management-template.xlsx) that includes the original and final project plan
+* A [spreadsheet](project-management-template.xlsx) that includes the original and final project plan
 
 ## Instructions
  
@@ -41,7 +41,7 @@ make all
 * Output of a test run
 Output of the test run can be seen in the above mentioned image. We can now introduce github actions feature for automatizing the continuous integration tool chain. For that one need to create .yml file in github action and output of the github action can be found below for every commit.
 
-![GitHub action integrated in github, overview](githubActionOverviewOutput.png)
+[GitHub action integrated in github, overview](githubActionOverviewOutput.png)
 ![GitHub action integrated in github, executed for every git action](GithubactionOutputDetail.png)
 
 ### Azure Devops Pipeline
