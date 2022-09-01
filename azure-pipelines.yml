@@ -13,7 +13,7 @@ variables:
   azureServiceConnectionId: 'myserviceconnection2212'
 
   # Web app name
-  webAppName: 'mlflask-project2'
+  webAppName: 'webapp2212'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
