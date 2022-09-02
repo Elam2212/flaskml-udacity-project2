@@ -22,9 +22,3 @@ jobs:
     - name: Test with pytest
       run: |
         make test
-    - name: Azure Pipelines Action
-        uses: Azure/pipelines@v1
-        with:
-        azure-devops-project-url: https://dev.azure.com/odluser206020/Flask-Udacity
-        azure-pipeline-name: 'Elam2212.flaskml-udacity-project2'
-        azure-devops-token: ${{ secrets.AZURE_DEVOPS_TOKEN }}
