@@ -109,6 +109,6 @@ Were, u denotes user, r denotes rate and t is timespan. One can see all the hits
 3. Improving the prediction model for better accuracy
 
 ## Demo 
-The Video explaing the project can be seen [here](https://youtu.be/tUFFsRecspY)
+The Video explaing the project can be seen [here]([https://youtu.be/tUFFsRecspY](https://youtu.be/ltz-adCf6Q8))
 
 
