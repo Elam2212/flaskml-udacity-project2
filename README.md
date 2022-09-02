@@ -1,3 +1,5 @@
+[![Python application test with Github Actions](https://github.com/Elam2212/flaskml-udacity-project2/actions/workflows/main.yml/badge.svg)](https://github.com/Elam2212/flaskml-udacity-project2/actions/workflows/main.yml)
+
 # Overview
 This Project 'Building a CI/CD Pipeline' Project as a part of DevOps Engineer using Microsoft Azure Nanodegree Program. This project explores the capabilities of AzureCloud Shell, integrating the github with Azure Devops Pipeline and deploying a webapp.
 
