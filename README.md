@@ -45,6 +45,20 @@ Output of the test run can be seen in the above mentioned image. We can now intr
 
 ![GitHub action integrated in github](gitgubActionOverviewOutput.png)
 ![GitHub action integrated in github](GithubactionOutputDetail.png)
+### Azure CLI App service
+1. Create Manual app, as described below, Running Azure App Service from Azure Pipelines automatic deployment
+```bash
+az webapp up --sku F1 --name webapp2212 --resource-group Azuredevops --runtime "PYTHON:3.7"
+```
+![AppService](appServiceCLI.png)
+![AppServiceOutput](webapp_prediction_json.png)
+2. Change the webapp name in the make_predict_azure_app.sh
+3. Run make_predict_azure_app.sh and output should look similer to the below,
+```bash
+udacity@Azure:~$ ./make_predict_azure_app.sh
+Port: 443
+{"prediction":[36.357041376594935]}
+```
 
 ### Azure Devops Pipeline
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
